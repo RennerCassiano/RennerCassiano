@@ -1,45 +1,23 @@
 [
   {
-    "name": "LeadUnity",
-    "repo": "arifhaxn/lead_unity",
+    "name": "OmniAI Assistant SaaS",
+    "repo": "RennerCassiano/OmniAI-Omnichannel-AI-Assistant-SaaS",
     "logo": "logo.png",
-    "description": "Leading University's defense setup",
-    "tags": ["Flutter", "Dart", "NextJS"]
+    "description": "Omnichannel AI Assistant SaaS platform",
+    "tags": ["AI", "SaaS", "Omnichannel"]
   },
   {
-    "name": "OnePick",
-    "repo": "arifhaxn/one_pick",
-    "logo": "op.png",
-    "description": "An One Piece trivia app to find your character",
-    "tags": ["Flutter", "Dart"]
+    "name": "Bem-Estar Massoterapia",
+    "repo": "RennerCassiano/Bem-Estar-Massoterapia",
+    "logo": "logo.png",
+    "description": "Plataforma voltada para serviços de bem-estar e massoterapia",
+    "tags": ["Web", "Health", "Services"]
   },
   {
-    "name": "Chessy",
-    "repo": "arifhaxn/chessy",
-    "logo": "chess.png",
-    "description": "Chess timer app for all types of variations",
-    "tags": ["Flutter", "Dart"]
-  },
-  {
-    "name": "Claster",
-    "repo": "arifhaxn/Claster",
-    "logo": "claster.png",
-    "description": "A class scheduling app for teachers which is used to track routines",
-    "tags": ["Flutter", "Dart", "Firebase"]
-  },
-  {
-    "name": "OneTELE",
-    "repo": "arifhaxn/OneTELE---Liilab-Teleprompter",
-    "logo": "onetele.png",
-    "description": "A custom teleprompter for liilab's recording studio",
-    "tags": ["Flutter", "Dart"]
-  },
-  {
-    "name": "Career Logic AI",
-    "repo": "arifhaxn/CareerLogic-AI",
-    "logo": "cl.png",
-    "description": "An AI Powered CV management and assesment system for aspiring career builders",
-    "tags": ["Flutter", "Dart", "Groq"]
+    "name": "Automação de Reuniões",
+    "repo": "RennerCassiano/plataforma-reunioes-automacao",
+    "logo": "logo.png",
+    "description": "Plataforma para automação e gestão de reuniões",
+    "tags": ["Automation", "Productivity"]
   }
 ]
-
