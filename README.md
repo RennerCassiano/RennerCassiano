@@ -5,10 +5,10 @@
     <tbody>
       <tr>
         <td width="42%" valign="top">
-          <img alt="Renner Cassiano Portrait" src="./portrait.svg" width="100%">
+          <picture><img alt="Renner Cassiano Portrait" src="./portrait.svg" width="100%"></picture>
         </td>
         <td width="58%" valign="top">
-          <img alt="Renner Cassiano Wordmark" src="./wordmark.svg" width="100%">
+          <picture><img alt="Renner Cassiano Wordmark" src="./wordmark.svg" width="100%"></picture>
         </td>
       </tr>
     </tbody>
@@ -18,25 +18,33 @@
   <p><a href="https://github.com/rennercassiano">GitHub</a></p>
 </div>
 
-<p align="center">
-  <img alt="About" src="./about.svg" width="100%">
-</p>
+<div align="center">
+  <picture><img alt="About" src="./about.svg" width="100%"></picture>
+</div>
 
-<p align="center">
-  <img alt="Stats" src="./stats.svg" width="100%">
-</p>
+<br/>
 
-<p align="center">
-  <img alt="Projects" src="./projects.svg" width="100%">
-</p>
+<div align="center">
+  <picture><img alt="Stats" src="./stats.svg" width="100%"></picture>
+</div>
 
-<p align="center">
-  <img alt="Highlights" src="./highlights.svg" width="100%">
-</p>
+<br/>
+
+<div align="center">
+  <picture><img alt="Projects" src="./projects.svg" width="100%"></picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture><img alt="Highlights" src="./highlights.svg" width="100%"></picture>
+</div>
+
+<br/>
 
 <div align="center">
   <h3><code>rennercassiano@github ~ $ ./contributions.sh</code></h3>
-  <img alt="Heatmap" src="./heatmap.svg" width="100%">
+  <picture><img alt="Heatmap" src="./heatmap.svg" width="100%"></picture>
 </div>
 
 <!-- ===== SOCIAL BADGES ===== -->
