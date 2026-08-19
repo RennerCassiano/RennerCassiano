@@ -5,18 +5,10 @@
     <tbody>
       <tr>
         <td width="42%" valign="top">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/portrait?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-            <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/portrait?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-            <img alt="Renner Cassiano Portrait" src="https://www.gitskins.com/api/section/portrait?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-          </picture>
+          <img alt="Renner Cassiano Portrait" src="./portrait.svg">
         </td>
         <td width="58%" valign="top">
-          <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/wordmark?username=rennercassiano&theme=aurora&style=terminal&label=Renner+Cassiano&mode=dark">
-            <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/wordmark?username=rennercassiano&theme=aurora&style=terminal&label=Renner+Cassiano&mode=light">
-            <img alt="Renner Cassiano Wordmark" src="https://www.gitskins.com/api/section/wordmark?username=rennercassiano&theme=aurora&style=terminal&label=Renner+Cassiano&mode=light">
-          </picture>
+          <img alt="Renner Cassiano Wordmark" src="./wordmark.svg">
         </td>
       </tr>
     </tbody>
@@ -27,52 +19,24 @@
 </div>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/about?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-    <img alt="About" src="https://www.gitskins.com/api/section/about?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-  </picture>
+  <img alt="About" src="./about.svg">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stack?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-    <img alt="Stack" src="https://www.gitskins.com/api/section/stack?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-  </picture>
+  <img alt="Stats" src="./stats.svg">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/stats?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-    <img alt="Stats" src="https://www.gitskins.com/api/section/stats?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-  </picture>
+  <img alt="Projects" src="./projects.svg">
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/projects?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-    <img alt="Projects" src="https://www.gitskins.com/api/section/projects?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/highlights?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-    <img alt="Highlights" src="https://www.gitskins.com/api/section/highlights?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-  </picture>
+  <img alt="Highlights" src="./highlights.svg">
 </p>
 
 <div align="center">
   <h3><code>rennercassiano@github ~ $ ./contributions.sh</code></h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/heatmap?username=rennercassiano&theme=aurora&style=terminal&mode=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-    <img alt="Heatmap" src="https://www.gitskins.com/api/section/heatmap?username=rennercassiano&theme=aurora&style=terminal&mode=light">
-  </picture>
+  <img alt="Heatmap" src="./heatmap.svg">
 </div>
 
 <!-- ===== SOCIAL BADGES ===== -->
@@ -90,5 +54,3 @@
     <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
   </a>
 </div>
-
-
