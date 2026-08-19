@@ -1,14 +1,14 @@
 <div align="center">
   <h3><code>rennercassiano@github ~ $ whoami</code></h3>
   
-  <table>
+  <table width="100%">
     <tbody>
       <tr>
         <td width="42%" valign="top">
-          <img alt="Renner Cassiano Portrait" src="./portrait.svg">
+          <img alt="Renner Cassiano Portrait" src="./portrait.svg" width="100%">
         </td>
         <td width="58%" valign="top">
-          <img alt="Renner Cassiano Wordmark" src="./wordmark.svg">
+          <img alt="Renner Cassiano Wordmark" src="./wordmark.svg" width="100%">
         </td>
       </tr>
     </tbody>
@@ -19,24 +19,24 @@
 </div>
 
 <p align="center">
-  <img alt="About" src="./about.svg">
+  <img alt="About" src="./about.svg" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Stats" src="./stats.svg">
+  <img alt="Stats" src="./stats.svg" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Projects" src="./projects.svg">
+  <img alt="Projects" src="./projects.svg" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Highlights" src="./highlights.svg">
+  <img alt="Highlights" src="./highlights.svg" width="100%">
 </p>
 
 <div align="center">
   <h3><code>rennercassiano@github ~ $ ./contributions.sh</code></h3>
-  <img alt="Heatmap" src="./heatmap.svg">
+  <img alt="Heatmap" src="./heatmap.svg" width="100%">
 </div>
 
 <!-- ===== SOCIAL BADGES ===== -->
