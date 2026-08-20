@@ -45,9 +45,9 @@
 <div align="center">
   <h3><code>rennercassiano@github ~ $ ./contributions.sh</code></h3>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/dist/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/dist/snake-light.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/dist/snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/snake-light.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/snake-dark.svg" width="100%">
   </picture>
 </div>
 
