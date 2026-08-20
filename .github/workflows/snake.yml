@@ -22,6 +22,64 @@ jobs:
           outputs: |
             dist/snake-light.svg?color_snake=%230891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
             dist/snake-dark.svg?color_snake=%23C084FC&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
+      - name: Wrap Snake in Mac Terminal
+        run: |
+          cat << 'EOF' > wrap.py
+          import re
+          import os
+
+          def wrap_svg(filepath):
+              if not os.path.exists(filepath): return
+              with open(filepath, "r") as f:
+                  content = f.read()
+              
+              w_match = re.search(r'<svg[^>]*width="(\d+)"', content)
+              h_match = re.search(r'<svg[^>]*height="(\d+)"', content)
+              if not w_match or not h_match: return
+              
+              w = int(w_match.group(1))
+              h = int(h_match.group(1))
+              
+              inner_content = re.search(r'<svg[^>]*>(.*)</svg>', content, re.DOTALL)
+              if not inner_content: return
+              inner = inner_content.group(1)
+              
+              new_w = max(800, w + 60)
+              new_h = h + 100
+              
+              header = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {new_w} {new_h}" width="100%" height="100%">
+            <style>
+              .tcur {{ animation: t-blink 1.1s step-end infinite; }}
+              .tln {{ opacity: 0; animation: t-in 360ms ease-out forwards; }}
+              @keyframes t-blink {{ 0%,49% {{ opacity: 1; }} 50%,100% {{ opacity: 0; }} }}
+              @keyframes t-in {{ to {{ opacity: 1; }} }}
+            </style>
+            <rect x="0.5" y="0.5" width="{new_w-1}" height="{new_h-1}" rx="4.5" fill="#0b0e14" stroke="#2a3038"/>
+            <rect x="0.5" y="0.5" width="{new_w-1}" height="34" rx="4.5" fill="#161b22"/>
+            <path d="M 0.5 34.5 L {new_w-0.5} 34.5" fill="none" stroke="#2a3038"/>
+            <circle cx="22" cy="17.5" r="6" fill="#ff5f56"/><circle cx="42" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="62" cy="17.5" r="6" fill="#27c93f"/>
+            <text x="{new_w/2}" y="22" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#8b949e">rennercassiano@github: ~$ ./contributions.sh</text>
+            <g class="tln" style="animation-delay:0ms">
+              <text x="28" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#3fb950">rennercassiano@github</text>
+              <text x="217.42" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#c9d1d9">:</text>
+              <text x="226.44" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#41d8c5">~</text>
+              <text x="235.46" y="70" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#c9d1d9">$ ./contributions.sh</text>
+            </g>
+            <g transform="translate(30, 90)">
+          '''
+              
+              footer = '''
+            </g>
+          </svg>
+          '''
+              
+              with open(filepath, "w") as f:
+                  f.write(header + inner + footer)
+
+          wrap_svg("dist/snake-light.svg")
+          wrap_svg("dist/snake-dark.svg")
+          EOF
+          python3 wrap.py
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
