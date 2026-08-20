@@ -1,49 +1,8 @@
-<div align="center">
-  <h3><code>rennercassiano@github ~ $ whoami</code></h3>
-  
-  <table width="100%">
-    <tbody>
-      <tr>
-        <td width="42%" valign="top">
-          <picture><img alt="Renner Cassiano Portrait" src="./portrait.svg" width="100%"></picture>
-        </td>
-        <td width="58%" valign="top">
-          <picture><img alt="Renner Cassiano Wordmark" src="./wordmark.svg" width="100%"></picture>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <p><b>Product-minded developer</b></p>
-  <p><a href="https://github.com/rennercassiano">GitHub</a></p>
-</div>
+<picture><img alt="Renner Cassiano Wordmark" src="./wordmark.svg" width="100%"></picture>
+
+<picture><img alt="Renner Cassiano Portrait" src="./portrait.svg" width="100%"></picture>
 
 <div align="center">
-  <picture><img alt="About" src="./about.svg" width="100%"></picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture><img alt="Stats" src="./stats.svg" width="100%"></picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture><img alt="Projects" src="./projects.svg" width="100%"></picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture><img alt="Highlights" src="./highlights.svg" width="100%"></picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <h3><code>rennercassiano@github ~ $ ./contributions.sh</code></h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RennerCassiano/RennerCassiano/output/snake-light.svg">
